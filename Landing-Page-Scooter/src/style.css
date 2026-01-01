@@ -1,0 +1,137 @@
+/* External CSS */
+
+* {
+margin: 0.5rem;
+padding: 0.5rem;
+box-sizing: border-box;
+} 
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;
+min-height: 100vh;
+}
+
+nav {
+  position: relative;
+  top: 1rem;
+  left: 50rem;
+}
+nav li {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+main div {
+background-color: black;
+padding: 0.3rem;
+margin: 0.5rem;
+position: relative;
+top: 10rem;
+left: 3rem;
+text-align: left;
+}
+
+.hero-right {
+    position: relative;
+    top: -11rem;
+    left: 52rem;
+}
+
+.bottom{
+  padding: 18px 30px 22px;
+}
+.foot-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.site{
+  font-size: 1rem;
+}
+.social{
+  position: relative;
+  bottom: 1rem;
+  right: 22rem;
+  display:flex;
+  align-items:center;
+  gap: 2rem;
+  font-weight:700;
+}
+.social a{
+  width: 2rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255,255,255,.22);
+  display:grid;
+  place-items:center;
+  color:#fff;
+  font-size: 1rem;
+  background: rgba(0,0,0,.12);
+}
+
+.handle{
+  font-size: 1rem;
+}
+
+/* footer */
+
+.feature-bars{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+}
+
+.feature{
+  display:flex;
+  align-items:center;
+  gap: 1rem;
+}
+
+.label{
+  color:#fff;
+  font-size:1rem;
+}
+
+.bar{
+  position:relative;
+  width: 16rem;
+  height: 1rem;
+  background: rgba(255,255,255,0.18);
+  overflow:hidden;
+}
+
+.fill{
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  background: rgba(255,255,255,0.30);
+}
+
+.dot{
+  position:absolute;
+  left: 0.1rem;
+  top:50%;
+  transform:translateY(-50%);
+  width:3rem;
+  height:1rem;
+  background:#fff;
+}
+
+.btn {
+    font-size: 2rem;
+}
+
+/* footer */
+
+/* 
+.social a{
+min-height: 40vh;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+gap: 3rem;
+align-items: flex-start;
+} */
